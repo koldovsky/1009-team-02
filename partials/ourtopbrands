@@ -1,0 +1,24 @@
+<section class="section">
+    <div class="container__kuko">
+        <div class="section__header">
+            <h2 class="section__suptitle">Our Top Brands</h2>
+            <h1 class="title">Colorful Collections by KUKO</h1>
+            <div class="section__text">
+                <p>KUKO is one of the new-wave furniture manufacturers. They are located in California, USA. Inspired by the sun and ocean, they create unique products bringing joy to your home or office. Our store presents the best KUKO sofas and armchairs from the collections of 2018-2020.</p>
+            </div>
+            <img src="img/kuko.jpg" alt="KUKO">
+<a href="#">SHOP KUKO</a>
+        </div>
+    </div>
+    <div class="container__landstorm">
+        <div class="section__header">
+            <h2 class="section__suptitle">Our Top Brands</h2>
+            <h1 class="title">Classics by Landstrom Design</h1>
+            <div class="section__text">
+                <p>Landstrom Design, founded in Copenhagen, creates universal pieces of cushioned furniture. Its sofas and armchairs look good in any interior styles, from minimalism to shabby chic. Such furniture will never go out of style and will catch the eye of your guests.</p>
+            </div>
+            <img src="img/landstorm.jpg" alt="Landstrom">
+            <a href="#">SHOP LANDSTORM</a>
+        </div>
+    </div>
+</section>
