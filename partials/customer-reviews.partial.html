@@ -1,7 +1,10 @@
 <div class="customer-reviews">
     <h1>What Our Customers Say</h1>
     <p>We love your feedback on our products!</p>
+    <div class="carousel">
     <div class="customer-cards">
+        <ul class="carousel__track">
+            <li class="carousel__slide">
 
         <div class="customer-Judy">
             <div class="photo-Judy ">
@@ -9,9 +12,13 @@
                 <h3 class="customer-name">Judy Peterson</h3>
                 <p class="customer-location">New York</p>
                 <p class="customer-text">I'm very pleased with our new sofa! It fits perfectly into the interior. The assemblage of the furniture was super fast! </p>
-</div>
-<p class="customer-date"> October 28, 2018 </p>
+                <p class="customer-date"> October 28, 2018 </p>
+            </div>
+</li>
+
         </div>
+
+        <li class="carousel__slide">
 
         <div class="customer-Kyle">
             <div class="photo-Kyle ">
@@ -23,6 +30,9 @@
 <p class="customer-date"> June 13, 2019 </p>
         </div>
 
+    </li>
+
+    <li class="carousel__slide">
         <div class="customer-Hanna">
             <div class="photo-Hanna">
                 <img src="img/Hanna_Levy.jpeg" alt="photo customer Hanna">
@@ -32,7 +42,9 @@
             </div>
 <p class="customer-date"> October 04, 2019 </p>
         </div>
+    </li>
 
+    <li class="carousel__slide">
         <div class="customer-Jim">
             <div class="photo-Jim">
                 <img src="img/Jim_Mockeen.jpeg" alt="photo customer Jim">
@@ -43,6 +55,9 @@
 <p class="customer-date">January 18, 2020</p>
         </div>
 
+    </li>
+
+    <li class="carousel__slide">
         <div class="customer-Karen">
             <div class="photo-Karen">
                 <img src="img/Karen.jpeg" alt="photo customer Karen">
@@ -52,6 +67,19 @@
             </div>
 <p class="customer-date">February 03, 2020</p>
         </div>
+    </li>
+</ul>
+    </div>
+    
+    <button class="carousel__button carousel__button--left" type="button">←</button>
+    <button class="carousel__button carousel__button--right" type="button">→</button>
+
+    <div class="carousel__nav">
+      <button class="carousel__indicator carousel__indicator--active" type="button" data-slide-to="0"></button>
+      <button class="carousel__indicator" type="button" data-slide-to="1"></button>
+      <button class="carousel__indicator" type="button" data-slide-to="2"></button>
+    </div>
+
 
     </div>
 </div>
