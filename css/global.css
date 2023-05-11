@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   :root {
     --main-color: #333;
     --accent-color: #7bb57c;
@@ -13,7 +13,7 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
   }
-  
+
   img {
     display: block;
     width: 100%;
