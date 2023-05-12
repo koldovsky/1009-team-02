@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --main-color: #333;
+    --accent-color: #7bb57c;
+    --secondary-font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
