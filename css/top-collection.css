@@ -6,5 +6,5 @@
 }
 
 .top-collection__colored {
-    color: --accent-color;
+    color: var(--accent-color);
 }

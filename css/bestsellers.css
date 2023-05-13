@@ -17,7 +17,7 @@
 }
 
 .bestsellers__item--price {
-    color: --accent-color;
+    color: var(--accent-color);
     font-size: 19px;
     margin-top: 16px;
 }
