@@ -1,0 +1,13 @@
+.furniture-collection .furniture-collection__title {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.furniture-collection .furniture-collection__photo {}
+
+.furniture-collection .furniture-collection__discount {
+    color: var(--accent-color);
+}
+
+.furniture-collection {}
