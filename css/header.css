@@ -25,55 +25,37 @@
 .header__menu-link:hover {
     color: var(--accent-color);
 }
-.header__button-container {
-    margin-right: -10px;
-    padding-left: 10px;
-}
-.order-button {
-    border: 2px solid var(--accent-color);
-    border-radius: 5px;
-    color: #737373;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    font-family: var(--secondary-font-family);
-    font-weight: 700;
-    text-decoration: none;
-    transition: 250ms ease-in;
+.header__order-button {
     height: 43px;
     width: 104px;
 }
-.order-button:hover {
-    background-color: var(--accent-color);
-    color: #fff;
-}
+
 .header__hero {
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 100px 30px 110px;
+    padding: 100px 30px;
 }
 .header__title {
-    font-size: 58px;
+    font-size: 44px;
     font-weight: 700;
     line-height: 63px;
 }
 .header__subtitle {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     margin-top: 35px;
+}
+.header__accent-text {
+    color: var(--accent-color);
 }
 .header__button {
     margin-top: 55px;
     width: 255px;
     height: 55px;
 }
-.accent-text {
-    color: var(--accent-color);
-}
-.side-arrow {
+.header__side-arrow {
     margin-left: 10px;
     height: 24px;
     width: 24px;

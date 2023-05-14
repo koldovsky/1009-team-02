@@ -9,6 +9,7 @@
   :root {
     --main-color: #333;
     --accent-color: #7bb57c;
+    --secondary-color: #737373;
     --secondary-font-family: 'Hind', sans-serif;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;

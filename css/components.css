@@ -17,3 +17,20 @@
     background-color: var(--main-color);
     color: #fff;
 }
+.button--secondary {
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    text-decoration: none;
+    transition: 250ms ease-in;
+}
+.button--secondary:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
