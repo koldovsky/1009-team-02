@@ -12,6 +12,7 @@ navLinks.forEach((navLink) => {
   navLink.addEventListener("click", (_) => {
     if (hamburgerMenu.classList.contains("active")) {
       document.body.classList.remove("lock");
+      document.body.classList.remove('lock-scroll');
       hamburgerMenu.classList.remove("active");
       offScreenMenu.classList.remove("active");
     }
