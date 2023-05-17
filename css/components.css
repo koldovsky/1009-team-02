@@ -35,6 +35,7 @@
     background-color: var(--accent-color);
     color: #fff;
 }
+
 .furniture-collection__arrow {
     color: var(--main-color);
     font-family: 'Hind', sans-serif;
