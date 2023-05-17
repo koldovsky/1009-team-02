@@ -69,6 +69,8 @@
     margin-top: 55px;
     width: 255px;
     height: 55px;
+    line-height: 13px;
+    font-size: 13px;
 }
 
 .header__side-arrow {

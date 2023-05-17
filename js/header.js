@@ -6,7 +6,7 @@ hamburgerMenu.addEventListener('click', () => {
   document.body.classList.toggle("lock");
 });
 
-const navLinks = document.querySelectorAll(".header__menu-link");
+const navLinks = document.querySelectorAll("#navigation-link");
 navLinks.forEach((navLink) => {
   navLink.addEventListener("click", (_) => {
     if (hamburgerMenu.classList.contains("active")) {
