@@ -1,7 +1,6 @@
 
 .customer-reviews{
-    background-color:#F7F5F6 ;
-    
+    background-color:#F7F5F6 ;  
 }
 
 .customer-title{
@@ -23,7 +22,7 @@
   padding: 0px 15px;
 }
 
-.customer-photo{
+.customer__card-photo{
     width: 120px;
     height: 120px;
     border-radius: 100px;
