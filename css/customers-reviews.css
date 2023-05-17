@@ -14,12 +14,12 @@
     text-align: center;
 }
 
-.customer-card{
+.customer__card{
   background-color: #FFFFFF;
   width: 289px;
   height: 483px;
-  display: inline-block;
-  padding: 0px 15px;
+  padding: 10px 15px;
+  
 }
 
 .customer__card-photo{
