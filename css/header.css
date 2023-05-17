@@ -69,6 +69,8 @@
     margin-top: 55px;
     width: 255px;
     height: 55px;
+    line-height: 13px;
+    font-size: 13px;
 }
 
 .header__side-arrow {
@@ -126,6 +128,10 @@
     background-color: white;
     height: 100vh;
     width: 100%;
+}
+
+body .header__off-screen-menu.active {
+    overflow: hidden;
 }
 
 .header__off-screen-menu.active {

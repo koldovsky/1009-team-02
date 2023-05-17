@@ -3,4 +3,19 @@ const offScreenMenu = document.querySelector('.header__off-screen-menu');
 hamburgerMenu.addEventListener('click', () => {
   hamburgerMenu.classList.toggle('active');
   offScreenMenu.classList.toggle('active');
-})
+  document.body.classList.toggle("lock");
+  document.body.classList.toggle('lock-scroll');
+});
+
+const navLinks = document.querySelectorAll("#navigation-link");
+navLinks.forEach((navLink) => {
+  navLink.addEventListener("click", (_) => {
+    if (hamburgerMenu.classList.contains("active")) {
+      document.body.classList.remove("lock");
+      hamburgerMenu.classList.remove("active");
+      offScreenMenu.classList.remove("active");
+    }
+  }
+  );
+});
+

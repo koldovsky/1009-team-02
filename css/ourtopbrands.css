@@ -1,0 +1,37 @@
+.container__kuko {
+  width: 500 px;
+  margin: 0 auto;
+  padding: 20 px;
+  background-color: #ffffff;
+}
+.kuko__header{
+  margin-right: 20 px;
+}
+.kuko__suptitle{
+  font-family: var(--font-main-accent-text);
+  font-size: 14 px;
+  line-height: 1.2;
+  color: var(--text-main-accent-color);
+  font-weight: normal;
+
+}
+.kuko__text {
+  
+  font-family: var(--font-main-accent-text);
+  font-size: 16 px;
+  line-height: 1.2;
+  color: var(--text-main-accent-color);
+  font-weight: normal;
+}
+.kuko__title{
+  font-family: var(--font-main-accent-text);
+  font-size: 30 px;
+  line-height: 1.2;
+  color: var(--text-main-accent-color);
+  font-weight: normal;
+
+}
+.img__kuko img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,12 @@
+.off__title {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.off__description {
+    display: block;
+    color: var(--main-color);
+}
