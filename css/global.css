@@ -24,3 +24,7 @@ img {
   max-width: 1200px;
   margin: auto;
 }
+
+.lock-scroll {
+  overflow-y: hidden;
+}

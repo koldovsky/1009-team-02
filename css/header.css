@@ -130,6 +130,10 @@
     width: 100%;
 }
 
+body .header__off-screen-menu.active {
+    overflow: hidden;
+}
+
 .header__off-screen-menu.active {
     right: 0;
 }

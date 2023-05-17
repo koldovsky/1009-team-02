@@ -4,6 +4,7 @@ hamburgerMenu.addEventListener('click', () => {
   hamburgerMenu.classList.toggle('active');
   offScreenMenu.classList.toggle('active');
   document.body.classList.toggle("lock");
+  document.body.classList.toggle('lock-scroll');
 });
 
 const navLinks = document.querySelectorAll("#navigation-link");
@@ -17,3 +18,4 @@ navLinks.forEach((navLink) => {
   }
   );
 });
+
