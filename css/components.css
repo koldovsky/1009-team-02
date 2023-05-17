@@ -1,22 +1,22 @@
 .button--primary {
     background-color: var(--accent-color);
     border-radius: 5px;
-    box-shadow: 0 3px 10px 0 rgba(39,37,40,.28);
+    box-shadow: 0 3px 10px 0 rgba(39, 37, 40, .28);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: var(--secondary-font-family);
-    font-size: 13px;
     font-weight: 700;
-    line-height: 13px;
     text-decoration: none;
     transition: 250ms ease-in;
 }
+
 .button--primary:hover {
     background-color: var(--main-color);
     color: #fff;
 }
+
 .button--secondary {
     border: 2px solid var(--accent-color);
     border-radius: 5px;
@@ -30,7 +30,15 @@
     text-decoration: none;
     transition: 250ms ease-in;
 }
+
 .button--secondary:hover {
     background-color: var(--accent-color);
     color: #fff;
+}
+.furniture-collection__arrow {
+    color: var(--main-color);
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    margin: -5px;
 }

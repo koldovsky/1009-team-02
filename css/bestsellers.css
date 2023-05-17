@@ -12,11 +12,12 @@
 }
 
 .bestsellers__item {
-    display: grid;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.bestsellers__item--price {
+.bestsellers__item-price {
     color: var(--accent-color);
     font-size: 19px;
     margin-top: 16px;
