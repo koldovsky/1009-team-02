@@ -1,0 +1,9 @@
+.top-collection {
+    font-weight: bold;
+    font-size: 58px;
+    display: block;
+}
+
+.top-collection__colored {
+    color: var(--accent-color);
+}

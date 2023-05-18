@@ -1,0 +1,25 @@
+.bestsellers__title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.bestsellers__description {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bestsellers__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bestsellers__item-price {
+    color: var(--accent-color);
+    font-size: 19px;
+    margin-top: 16px;
+}
+

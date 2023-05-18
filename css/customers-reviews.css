@@ -1,0 +1,29 @@
+
+.customer-reviews{
+    background-color:#F7F5F6 ;  
+}
+
+.customer-title{
+    color: #333333;
+    font-size: 38px;
+    text-align: center;
+}
+
+.customers-text-content{
+    font-size: 18px;
+    text-align: center;
+}
+
+.customer__card{
+  background-color: #FFFFFF;
+  width: 289px;
+  height: 483px;
+  padding: 10px 15px;
+  
+}
+
+.customer__card-photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}

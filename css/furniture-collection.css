@@ -1,0 +1,39 @@
+.furniture-collection {
+    padding: 90px 24px 90px 24px;
+}
+
+.furniture-collection .furniture-collection__title {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 24px 0 24px 0;
+}
+
+.furniture-collection .furniture-collection__discount {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.furniture-collection__learnmore {
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.furniture-collection__link {
+    display: block;
+    color: var(--main-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 12px;
+}
+

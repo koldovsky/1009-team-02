@@ -1,0 +1,12 @@
+.blog {
+    display: block;
+    text-align: center;
+}
+
+.blog__title {
+    font-weight: bold;
+    }
+
+.blog__content {
+    font-weight: bold;
+}
