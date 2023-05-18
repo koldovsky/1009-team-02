@@ -91,6 +91,7 @@
   line-height: 13px;
   font-size: 13px;
   cursor: pointer;
+  padding: 20px 0px 20px 30px;
 }
 .decorative-line {
   border-top: 2px solid floralwhite;
