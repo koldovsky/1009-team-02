@@ -99,11 +99,11 @@
     transition: transform .6s, opacity .8s, top .6s;
 }
 
-.bar-top {
+.header__hamburger-menu .bar-top {
     top: 25%;
 }
 
-.bar-bottom {
+.header__hamburger-menu .bar-bottom {
     top: 75%;
 }
 
@@ -128,10 +128,6 @@
     background-color: white;
     height: 100vh;
     width: 100%;
-}
-
-body .header__off-screen-menu.active {
-    overflow: hidden;
 }
 
 .header__off-screen-menu.active {
