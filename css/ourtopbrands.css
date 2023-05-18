@@ -1,37 +1,23 @@
-.container__kuko {
-  width: 500 px;
-  margin: 0 auto;
-  padding: 20 px;
-  background-color: #ffffff;
+.ourtopbrands{
+  display: flex;
+  width: 100%;
+  max-width: 1700px;
+  background-color: #fff;
+   display: block;
+  margin: 30px 0;
+}
+.container__kuko{
+  width: 100%;
+  max-width: 1500px;
+  height: 422px;
+padding: 70px;
 }
 .kuko__header{
-  margin-right: 20 px;
-}
-.kuko__suptitle{
-  font-family: var(--font-main-accent-text);
-  font-size: 14 px;
-  line-height: 1.2;
-  color: var(--text-main-accent-color);
-  font-weight: normal;
+  width: 50%;
 
 }
-.kuko__text {
-  
-  font-family: var(--font-main-accent-text);
-  font-size: 16 px;
-  line-height: 1.2;
-  color: var(--text-main-accent-color);
-  font-weight: normal;
-}
-.kuko__title{
-  font-family: var(--font-main-accent-text);
-  font-size: 30 px;
-  line-height: 1.2;
-  color: var(--text-main-accent-color);
-  font-weight: normal;
-
-}
-.img__kuko img {
-  max-width: 100%;
-  height: auto;
+.img__kuko{
+  width: 50%;
+  position: absolute;
+  left: 20%;
 }
