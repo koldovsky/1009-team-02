@@ -21,10 +21,8 @@
   margin-top: 116px;
 }
 .footer_logo {
-  width: 200px;
-  height: 40px;
-  left: 190px;
-  top: 629px;
+  height: 42px;
+  width: auto;
   cursor: pointer;
   border-style: hidden;
 }
@@ -59,6 +57,8 @@
 }
 .footer_logo-icon {
   margin-right: 10px;
+  height: 30px;
+  width: 30px;
 }
 .footer__section-contacts{
   text-align: center;
