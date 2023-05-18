@@ -35,10 +35,8 @@
     background-color: var(--accent-color);
     color: #fff;
 }
-.furniture-collection__arrow {
+.side-arrow {
     color: var(--main-color);
-    font-family: 'Hind', sans-serif;
     font-size: 12px;
-    cursor: pointer;
     margin: -5px;
 }
