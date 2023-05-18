@@ -91,7 +91,6 @@
   line-height: 13px;
   font-size: 13px;
   cursor: pointer;
-  padding: 20px 0px 20px 30px;
 }
 .decorative-line {
   border-top: 2px solid floralwhite;
@@ -112,6 +111,6 @@
 }
 .footer__w-text-content-left{
   margin-left: 120px;
-  margin-right: 950px;
+  margin-right: 990px;
 }
 
