@@ -1,0 +1,41 @@
+.furniture-offers__interior-white {
+    width: 400px;
+    height: 400px;
+    background: url(../img/offer-white.webp);
+    background-size: cover;
+}
+.furniture-offers__bring-bright {
+    font-size: 14px;
+    color: #2C2C2C;
+}
+.furniture-offers__discount {
+    font-size: 22px;
+    color: #333333;
+}
+.furniture-offers__set-bright {
+    font-size: 16px;
+    color: #707070;
+}
+.furniture-offers__interior-black {
+width: 400px;
+    height: 400px;
+    background: url(../img/offer-black.webp);
+    background-size: cover;
+}
+.furniture-offers__color-trend {
+    font-size: 14px;
+    color: #a9a9a9;
+}
+.furniture-offers__simple-color {
+    font-size: 22px;
+    color: #fff;
+}
+.furniture-offers__top-models {
+    font-size: 16px;
+    color: #fff;
+}
+.furniture-offers__button {
+    width: 145px;
+    height: 42px;
+    font-size: 11px;
+}
