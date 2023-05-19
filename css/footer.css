@@ -1,1 +1,116 @@
+.footer {
+  background: #2e2d2d;
+  height: 500px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer__wrapper-container {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 0%;
+}
+.footer__section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 19%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 80px;
+  margin-top: 116px;
+}
+.footer_logo {
+  height: 42px;
+  width: auto;
+  cursor: pointer;
+  border-style: hidden;
+}
+.footer__links {
+  list-style-type: none;
+}
+.footer__menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f5f5f5;
+  transition: color 0.2s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__menu-link:hover {
+  color: #7bb57c;
+}
+.footer__section-about-us {
+  padding-left: 0px;
+}
+.footer__section-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f5f5f5;
+}
+.footer__section-follow-us-text {
+  margin-left: 25px;
+}
+.footer_social-icons-container {
+  display: inline;
+}
+.footer_logo-icon {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+.footer__section-contacts{
+  text-align: center;
+}
+.footer__section-text-promo {
+ padding: 0px;
+ text-align: center;
+}
+
+.footer_form-field-lable {
+  font-size: 13px;
+  width: 180px;
+  height: 55px;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  border-color: #f7f5f6;
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 20px 0px 20px 30px;
+}
+.footer__button {
+  width: 180px;
+  height: 55px;
+  line-height: 13px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.decorative-line {
+  border-top: 2px solid floralwhite;
+  margin: 10px 120px 10px 120px;
+}
+.footer__horizontal-flow-selection{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.footer__w-text-content{
+  letter-spacing: 0.064em;
+  text-transform: none;
+  color: #a9a9a9;
+  box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+  display: inline;
+}
+.footer__w-text-content-left{
+  margin-left: 120px;
+  margin-right: 990px;
+}
 

@@ -1,37 +1,40 @@
-.container__kuko {
-  width: 500 px;
-  margin: 0 auto;
-  padding: 20 px;
-  background-color: #ffffff;
+.ourtopbrands{
+  display: block;
+  width: 100%;
+  max-width: 1700px;
+  background-color: #fff;   
+  margin: 30px 0;
+ 
+  
+}
+.container__kuko{  
+  width: 100%;
+  max-width: 1600px;
+  height: 530px;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .kuko__header{
-  margin-right: 20 px;
+  width: 100%;
 }
-.kuko__suptitle{
-  font-family: var(--font-main-accent-text);
-  font-size: 14 px;
-  line-height: 1.2;
-  color: var(--text-main-accent-color);
-  font-weight: normal;
-
+.ourtopbrands__btn{
+  border: 2px solid var(--accent-color);
+  border-radius: 5px;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  text-decoration: none;
+  transition: 250ms ease-in; 
 }
-.kuko__text {
+.img__kuko{
   
-  font-family: var(--font-main-accent-text);
-  font-size: 16 px;
-  line-height: 1.2;
-  color: var(--text-main-accent-color);
-  font-weight: normal;
-}
-.kuko__title{
-  font-family: var(--font-main-accent-text);
-  font-size: 30 px;
-  line-height: 1.2;
-  color: var(--text-main-accent-color);
-  font-weight: normal;
-
-}
-.img__kuko img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-width: 750px;
+  margin-left: 20%;
 }
