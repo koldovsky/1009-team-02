@@ -5,7 +5,7 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 
 // https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
 function makeNegative(num) {
-  return num !== 0 ? -Math.abs(num) : num;
+  return -Math.abs(num);
 }
 
 // https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
