@@ -1,6 +1,24 @@
-.spring-collection__background {
-width: 400px;
-height: 400px;
-background: url(../img/background-armchair.webp);
-background-size: cover;
+@media (max-width:700px) {
+    h2 {
+        font-size: 58px;
+    }
 }
+.spring-collection__background {
+background-image: url(../img/background-armchair.webp);
+background-attachment: fixed;
+background-size: auto;
+width: 1268px;
+height: 500px;
+    }
+    .spring-collection__year {
+        
+        color: #7bb67c;
+    }
+    .spring-collection__title {
+        font-size: 71px;
+        color: #333;
+    }
+    .spring-collection__description {
+        font-size: 18px;
+        color: #333;
+    }
