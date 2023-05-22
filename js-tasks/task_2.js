@@ -1,12 +1,12 @@
 // https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 function stringToArray(string) {
-  const arr = string.split(" ");
+  const arr = string.split(' ');
   return arr;
 }
 
 // https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
 function DNAtoRNA(dna) {
-  const rna = dna.replaceAll("T", "U");
+  const rna = dna.replaceAll('T', 'U');
   return rna;
 }
 
@@ -23,7 +23,7 @@ function min(arr, toReturn) {
 // https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
 function warnTheSheep(queue) {
   const sheepCount = queue.length - 1 - queue.indexOf('wolf');
-  const message = sheepCount === 0 ? "Pls go away and stop eating my sheep" : "Oi! Sheep number " + sheepCount + "! You are about to be eaten by a wolf!";
+  const message = sheepCount === 0 ? 'Pls go away and stop eating my sheep' : 'Oi! Sheep number ' + sheepCount + '! You are about to be eaten by a wolf!';
   return message;
 }
 
