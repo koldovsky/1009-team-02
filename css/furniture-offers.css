@@ -1,56 +1,67 @@
-
 .furniture-offers {
     display: flex;
-}
-.furniture-offers__wrapper {
+  }
+  
+  .furniture-offers__wrapper {
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-.furniture-offers__interior {
+    padding: 95px 0 50px;
+  }
+  .furniture-offers__interior {
     width: calc(50% - 30px);
     background-size: cover;
     padding: 60px 30px;
     margin: 0 15px;
-}
-.furniture-offers__interior > * {
-margin-top: 20px;
-}
-.furniture-offers__interior-white {
+  }
+  .furniture-offers__interior > * {
+    margin-top: 20px;
+  }
+  .furniture-offers__interior-white {
     background-image: url(../img/offer-white.webp);
-}
-.furniture-offers__interior-black {
+  }
+  .furniture-offers__interior-black {
     background-image: url(../img/offer-black.webp);
-}
-.furniture-offers__bring-bright {
+  }
+  .furniture-offers__bring-bright {
     font-size: 14px;
-    color: #2C2C2C;
+    color: #2c2c2c;
     font-weight: 500;
-}
-.furniture-offers__discount {
+  }
+  .furniture-offers__discount {
     font-size: 22px;
     color: #333333;
-    font-weight: 500
-}
-.furniture-offers__set-bright {
+    font-weight: 500;
+  }
+  .furniture-offers__set-bright {
     font-size: 16px;
     color: #707070;
-}
-.furniture-offers__color-trend {
+  }
+  .furniture-offers__color-trend {
     font-size: 14px;
     color: #a9a9a9;
-}
-.furniture-offers__simple-color {
+  }
+  .furniture-offers__simple-color {
     font-size: 22px;
     color: #fff;
-}
-.furniture-offers__top-models {
+  }
+  .furniture-offers__top-models {
     font-size: 16px;
     color: #fff;
-}
-.furniture-offers__button {
+  }
+  .furniture-offers__button {
     width: 145px;
     height: 42px;
     font-size: 11px;
     margin-top: 40px;
-}
+  }
+  @media screen and (max-width: 576px) {
+    .furniture-offers__wrapper {
+      flex-direction: column;
+    }
+    .furniture-offers__interior {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+  
