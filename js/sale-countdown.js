@@ -1,0 +1,27 @@
+function countdown(date) {
+  const targetTime = new Date(date).getTime();
+  const countdownContainer = document.querySelector(".countdown");
+
+  const interval = setInterval(() => {
+    const currentTime = new Date().getTime();
+    const remainingTime = targetTime - currentTime;
+    if (remainingTime <= 0) {
+      clearInterval(interval);
+      countdownContainer.textContent = "Sale ended!";
+    } else {
+      const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+      countdownContainer.innerHTML = `<div class="countdown__date">Time is running out: Don't miss the sale in
+        <span class="countdown__date-item"> ${days}:</span>
+        <span class="countdown__date-item">${hours}:</span>
+        <span class="countdown__date-item">${minutes}:</span>
+        <span class="countdown__date-item">${seconds}</span></div>`;
+    }
+  }, 1000);
+}
+
+const targetDate = "2023-06-15";
+countdown(targetDate);
