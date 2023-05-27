@@ -59,5 +59,6 @@
     color: var(--secondary-text);
 }
 .contacts__tel {
-  
+  text-decoration: none;
+  color: #000;
 }
