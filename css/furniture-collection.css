@@ -1,9 +1,8 @@
-.furniture-collection {
-  padding: 90px 24px 90px 24px;
-}
+
 .furniture-collection__iteam {
-  margin: 10px;
-}
+    margin: 10px;
+    
+  }
 .furniture-collection__iteam .furniture-collection__photo {
   font-size: 16px;
   font-stretch: 100%;
@@ -13,7 +12,7 @@
 }
 .furniture-collection__title {
   margin-top: 20px;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
 }
 .furniture-collection__discount {
@@ -44,3 +43,7 @@
     flex-direction: row;
   }
 }
+.furniture-collection {
+    padding: 90px 24px 90px 24px;
+    justify-content: center;
+  }
