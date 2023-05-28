@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -10,8 +10,9 @@
   --main-color: #333;
   --accent-color: #7bb57c;
   --secondary-color: #737373;
-  --secondary-text: rgb(112, 112, 112);
+  --light-color: #ffffff;
   --background-color: #f7f5f6;
+  --sale-color: #e51513;
   --secondary-font-family: 'Hind', sans-serif;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
