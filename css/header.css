@@ -107,6 +107,10 @@
     top: 75%;
 }
 
+.header__hamburger-menu.active {
+    bottom: 30px;
+}
+
 .header__hamburger-menu.active .bar-top {
     transform: translate(-50%, -50%) rotate(-315deg);
     top: 50%;
