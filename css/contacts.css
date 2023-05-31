@@ -69,11 +69,7 @@
   font-size: 14px;
 }
 .contacts__map {
-  border: none;
   margin-top: 12px;
-  width: 600px;
-  height: 300px;
- 
 }
 @media (min-width: 640px) {
   .contacts {
