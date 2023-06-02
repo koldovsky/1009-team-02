@@ -27,10 +27,12 @@
     padding: 13px 24px;
     font-weight: 700;
 }
+
 .off__finds-container__find {
     display: inline-block;
     
 }
+
 .off__finds-container__find .out-of-stock {
     object-fit: contain;
     height: 91%;
@@ -40,6 +42,11 @@
     background: #ffddd9;
     color: #cc3833;
 
+}
+
+.off__brands-carousel li {
+height: 150px;
+display: inline-flex;
 }
 
 @media (min-width: 540px) {
