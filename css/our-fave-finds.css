@@ -11,3 +11,42 @@
     color: var(--main-color);
 }
 
+.off__finds-container__find__find-image {
+    height: 272px;
+    width: 272px;
+}
+.off_finds-container__find__button {
+    border: var(--accent-color);
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 10.8px; 
+    cursor: pointer;
+    word-wrap: break-word;
+    font-family: var(--secondary-font-family);
+    padding: 13px 24px;
+    font-weight: 700;
+}
+.off__finds-container__find {
+    display: inline-block;
+    
+}
+.off__finds-container__find .out-of-stock {
+    object-fit: contain;
+    height: 91%;
+}
+
+.off__finds-container__find__out-of-stock {
+    background: #ffddd9;
+    color: #cc3833;
+
+}
+
+@media (min-width: 540px) {
+    .off__finds-container__tabs-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+}
+
