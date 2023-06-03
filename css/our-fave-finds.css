@@ -15,22 +15,10 @@
     height: 272px;
     width: 272px;
 }
-.off_finds-container__find__button {
-    border: var(--accent-color);
-    border-width: 2px;
-    border-radius: 5px;
-    border-style: solid;
-    font-size: 10.8px; 
-    cursor: pointer;
-    word-wrap: break-word;
-    font-family: var(--secondary-font-family);
-    padding: 13px 24px;
-    font-weight: 700;
-}
 
 .off__finds-container__find {
     display: inline-block;
-    
+
 }
 
 .off__finds-container__find .out-of-stock {
@@ -45,15 +33,40 @@
 }
 
 .off__brands-carousel li {
-height: 150px;
-display: inline-flex;
+    height: 150px;
+    display: inline-flex;
+}
+
+.off__finds-container__tabs {
+    border-bottom: 2px solid #c0bfbf;
+    margin-bottom: 30px;
+    padding-bottom: 2px;
+}
+
+.off__finds-container__tabs>span {
+    padding: 15px 20px;
+    display: inline-block;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.off__finds-container__tabs>span.active {
+    border-bottom: 3px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.off__finds-container__tab {
+    display: none;
+}
+
+.off__finds-container__tab.active {
+    display: block;
 }
 
 @media (min-width: 540px) {
     .off__finds-container__tabs-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
-
