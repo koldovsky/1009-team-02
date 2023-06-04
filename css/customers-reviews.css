@@ -1,29 +1,49 @@
+@import url(global.css);
 
-.customer-reviews{
-    background-color:#F7F5F6 ;  
+.customer__reviews__container{
+    background-color: var(--background-color);
+    
 }
-
-.customer-title{
-    color: #333333;
-    font-size: 38px;
-    text-align: center;
+.customer__reviews__container .customer__reviews__title{
+    font-size: 30px;
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
-.customers-text-content{
+.customers__reviews__text__content {
     font-size: 18px;
-    text-align: center;
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.customer__card{
-  background-color: #FFFFFF;
-  width: 289px;
-  height: 483px;
-  padding: 10px 15px;
-  
+ .customer__card{
+    background-color: var(--background-color-cards);
+
+}
+.customer__card__photo{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+   
 }
 
-.customer__card-photo{
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
+
+@media(min-width: 640px) {
+   
+    .customer__cards__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 20px;
+  }
+}
+@media(min-width:960px) {
+    .customer__cards__wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
 }
