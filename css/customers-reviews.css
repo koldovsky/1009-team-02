@@ -2,48 +2,81 @@
 
 .customer__reviews__container{
     background-color: var(--background-color);
-    
+
 }
-.customer__reviews__container .customer__reviews__title{
+ .customer__reviews__title{
     font-size: 30px;
     color: var(--main-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+   
 }
 .customers__reviews__text__content {
     font-size: 18px;
     color: var(--main-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  
 }
+.carousel__track{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  list-style-type:none;
+
+}
+
 
  .customer__card{
     background-color: var(--background-color-cards);
+    border: 1px solid var(--background-color-cards);
+    position: relative;
+    min-width: 320px;
+    clear: left;
 
 }
 .customer__card__photo{
     border-radius: 50%;
+    text-align: center;
     height: 70px;
     width: 70px;
+    margin: 20px;
    
+}
+.customer__card__name{
+    font-size: 22px;
+    margin: 20px;
+}
+.customer__card__location, .customer__card__date{
+
+    font-size: 14px;
+    font-weight:inherit;
+    margin: 20px;
+    color: var(--customer-location-color);
+
+}
+.customer__card__message{
+    font-size: 16px;
+    color: var(--customer-message-color);
+    margin: 20px;
+}
+
+.carousel__slide__customer__card__2, .carousel__slide__customer__card__3,
+.carousel__slide__customer__card__4, .carousel__slide__customer__card__5{
+    display: none;
 }
 
 
 @media(min-width: 640px) {
    
-    .customer__cards__wrapper{
+    .carousel__track{
         display: grid;
+        gap: 20px;
         grid-template-columns: 1fr 1fr;
-        column-gap: 30px;
-        row-gap: 20px;
+      
   }
 }
+
 @media(min-width:960px) {
-    .customer__cards__wrapper{
+    .carousel__track{
+        gap: 20px;
         grid-template-columns: 1fr 1fr 1fr;
       }
-}
+} 
