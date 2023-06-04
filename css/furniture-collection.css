@@ -1,39 +1,54 @@
-.furniture-collection {
-    padding: 90px 24px 90px 24px;
+.furniture-collection__sale {
+  font-size: 14px;
+  color: var(--sale-color);
+  margin-bottom: 12px;
+  text-align: center;
 }
-
-.furniture-collection .furniture-collection__title {
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    padding: 24px 0 24px 0;
+.furniture-collection__iteam {
+  margin: 10px;
 }
-
-.furniture-collection .furniture-collection__discount {
-    color: var(--accent-color);
-    font-weight: bold;
+.furniture-collection__photo {
+  font-size: 18px;
+  font-stretch: 100%;
+  font-weight: 400;
+  height: 185px;
+  width: 272px;
 }
-
-.furniture-collection__learnmore {
-    padding-bottom: 40px;
+.furniture-collection__title {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: normal;
 }
-
-.container {
+.furniture-collection__discount {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+.furniture-colection__button {
+  margin-top: 35px;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 12px;
+  line-height: 12px;
+  width: 255px;
+  height: 55px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.furniture-colection__side-arrow {
+  margin-left: 10px;
+  margin-bottom: -8px;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+}
+@media (min-width: 540px) {
+  .furniture-collection__container {
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
+  }
 }
-
-.furniture-collection__link {
-    display: block;
-    color: var(--main-color);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Hind', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
-    padding-right: 12px;
+.furniture-collection {
+  padding: 90px 24px 90px 24px;
+  justify-content: center;
 }
-

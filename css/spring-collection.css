@@ -1,0 +1,32 @@
+.spring-collection {
+  background-image: url(../img/background-armchair.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.spring-collection__main {
+  margin: 0 15px;
+  padding-top: 170px;
+  padding-bottom: 180px;
+}
+
+.spring-collection__title {
+  font-size: 71px;
+  line-height: 1.2em;
+  color: #333;
+}
+
+.spring-collection__year {
+  color: #7bb67c;
+}
+
+.spring-collection__description {
+  font-size: 18px;
+  color: #333;
+  margin-top: 40px;
+}
+
+.spring-collection__button {
+  margin-top: 40px;
+}
