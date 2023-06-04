@@ -63,6 +63,7 @@
     max-width: 100%;
     word-wrap: break-word;
     margin-top: 25px;
+    text-wrap: balance;
 }
 .img__kuko{
   height: 100%;
@@ -71,14 +72,67 @@
   max-width: 100%;
 }
 .container__landstorm{
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-start;
   width: 100%;
   max-width: 1600px;
   height: 530px;
   padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 30px;
-    
+  padding-right: 15px;
+  margin-top: 30px;    
+}
+.container__landstorm{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding-bottom: 60px !important;
+    padding-top: 60px !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.landstorm__header{
+  padding-bottom: 60px !important;
+    padding-top: 60px !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+.landstorm__suptitle{
+  font-size: 14px;
+    line-height: 1.33;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .064em;
+    color: #2c2c2c;
+    text-transform: none;
+}
+.landstorm__title{ 
+  font-size: 30px;
+    line-height: 1.2;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #333;
+    text-transform: none;
+    margin-top: 20px;
+}
+.landstorm__text{
+  font-size: 16px;
+    line-height: 1.5;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #707070;
+    text-transform: none;
+    margin-top: 20px;
+    text-wrap: balance;
 }
