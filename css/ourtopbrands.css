@@ -1,40 +1,84 @@
-.ourtopbrands{
-  display: block;
+.ourtopbrands{ 
   width: 100%;
-  max-width: 1700px;
+  max-width: 1600px;
+  max-height: 1115px;
   background-color: #fff;   
-  margin: 30px 0;
- 
-  
+  margin: 30px 0;  
 }
-.container__kuko{  
+.container__kuko{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
   width: 100%;
   max-width: 1600px;
   height: 530px;
-  padding: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 15px;
+    padding-right: 15px;
+  
 }
-.kuko__header{
-  width: 100%;
+.kuko__header{ 
+  padding-bottom: 60px !important;
+    padding-top: 60px !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+} 
+.kuko__suptitle{
+  font-size: 14px;
+    line-height: 1.33;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .064em;
+    color: #2c2c2c;
+    text-transform: none;
 }
-.ourtopbrands__btn{
-  border: 2px solid var(--accent-color);
-  border-radius: 5px;
-  color: var(--secondary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 11px;
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
+
+.kuko__title{
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: Poppins,sans-serif;
+  font-weight: 600;
   text-decoration: none;
-  transition: 250ms ease-in; 
+  font-style: normal;
+  letter-spacing: 0;
+  color: #333;
+  text-transform: none;
+  position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    margin-top: 20px
+}
+.kuko__text{
+  font-size: 16px;
+    line-height: 1.5;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #707070;
+    text-transform: none;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    margin-top: 25px;
 }
 .img__kuko{
-  
+  height: 100%;
+  display: block;
+  position: relative;
+  max-width: 100%;
+}
+.container__landstorm{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
   width: 100%;
-  max-width: 750px;
-  margin-left: 20%;
+  max-width: 1600px;
+  height: 530px;
+  padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    
 }
