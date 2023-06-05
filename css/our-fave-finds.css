@@ -32,15 +32,18 @@
 
 }
 
-.off__brands-carousel li {
-    height: 150px;
-    display: inline-flex;
+.off__carousel__track span {
+    display: inline-block;
+}
+
+.off__carousel__track span img {
+    height: 100px;
 }
 
 .off__finds-container__tabs {
     border-bottom: 2px solid #c0bfbf;
     margin-bottom: 30px;
-    padding-bottom: 2px;
+
 }
 
 .off__finds-container__tabs>span {
@@ -61,6 +64,38 @@
 
 .off__finds-container__tab.active {
     display: block;
+}
+
+.off__carousel__track-container {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.off__carousel__track-container__left-arrow {
+    position: absolute;
+    left: 10px;
+    top: 35%;
+    height:30px;
+    width:30px;
+    transform: rotateY(180deg);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.off__carousel__track-container__right-arrow {
+    position: absolute;
+    right: 10px;
+    height:30px;
+    width:30px;
+    top:35%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.off__carousel__slide {
+    margin: 0 42px;
 }
 
 @media (min-width: 540px) {

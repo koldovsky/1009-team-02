@@ -12,6 +12,9 @@
   --secondary-color: #737373;
   --light-color: #ffffff;
   --background-color: #f7f5f6;
+  --background-color-cards:#ffffff;
+  --customer-location-color:#2c2c2c;
+  --customer-message-color:#707070;
   --sale-color: #e51513;
   --secondary-font-family: 'Hind', sans-serif;
   font-family: 'Poppins', sans-serif;

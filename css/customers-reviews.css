@@ -1,29 +1,82 @@
+@import url(global.css);
 
-.customer-reviews{
-    background-color:#F7F5F6 ;  
+.customer__reviews__container{
+    background-color: var(--background-color);
+
 }
-
-.customer-title{
-    color: #333333;
-    font-size: 38px;
-    text-align: center;
+ .customer__reviews__title{
+    font-size: 30px;
+    color: var(--main-color);
+   
 }
-
-.customers-text-content{
+.customers__reviews__text__content {
     font-size: 18px;
-    text-align: center;
-}
-
-.customer__card{
-  background-color: #FFFFFF;
-  width: 289px;
-  height: 483px;
-  padding: 10px 15px;
+    color: var(--main-color);
   
 }
+.carousel__track{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  list-style-type:none;
 
-.customer__card-photo{
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
 }
+
+
+ .customer__card{
+    background-color: var(--background-color-cards);
+    border: 1px solid var(--background-color-cards);
+    position: relative;
+    min-width: 320px;
+    clear: left;
+
+}
+.customer__card__photo{
+    border-radius: 50%;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+   
+}
+.customer__card__name{
+    font-size: 22px;
+    margin: 20px;
+}
+.customer__card__location, .customer__card__date{
+
+    font-size: 14px;
+    font-weight:inherit;
+    margin: 20px;
+    color: var(--customer-location-color);
+
+}
+.customer__card__message{
+    font-size: 16px;
+    color: var(--customer-message-color);
+    margin: 20px;
+}
+
+.carousel__slide__customer__card__2, .carousel__slide__customer__card__3,
+.carousel__slide__customer__card__4, .carousel__slide__customer__card__5{
+    display: none;
+}
+
+
+@media(min-width: 640px) {
+   
+    .carousel__track{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+      
+  }
+}
+
+@media(min-width:960px) {
+    .carousel__track{
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+} 
