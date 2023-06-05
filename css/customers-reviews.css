@@ -1,37 +1,24 @@
-@import url(global.css);
-
 .customer__reviews__container{
     background-color: var(--background-color);
+    padding-bottom: 70px;
 
-}
- .customer__reviews__title{
+} .customer__reviews__title{
     font-size: 30px;
     color: var(--main-color);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
    
 }
+
 .customers__reviews__text__content {
     font-size: 18px;
     color: var(--main-color);
-  
-}
-.carousel__track{
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  list-style-type:none;
-
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-
- .customer__card{
-    background-color: var(--background-color-cards);
-    border: 1px solid var(--background-color-cards);
-    position: relative;
-    min-width: 320px;
-    clear: left;
-
-}
 .customer__card__photo{
     border-radius: 50%;
     text-align: center;
@@ -39,7 +26,12 @@
     width: 70px;
     margin: 20px;
    
+}.customer__card{
+    background-color: var(--background-color-cards);
+    border: 1px solid var(--background-color-cards);
+
 }
+
 .customer__card__name{
     font-size: 22px;
     margin: 20px;
@@ -58,25 +50,49 @@
     margin: 20px;
 }
 
-.carousel__slide__customer__card__2, .carousel__slide__customer__card__3,
-.carousel__slide__customer__card__4, .carousel__slide__customer__card__5{
-    display: none;
+.customer__carousel-btn-prev, .customer__carousel-btn-next {
+height: 20px;
+width: 20px;
+display:flex;
+
+}
+
+.carousel__customer__review__inner{
+    display: flex;
+   justify-content: space-between;
+    
 }
 
 
-@media(min-width: 640px) {
-   
-    .carousel__track{
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 1fr 1fr;
-      
-  }
+.customer__carousel-slide{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    
+
 }
 
-@media(min-width:960px) {
-    .carousel__track{
-        gap: 20px;
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-} 
+.customer__carousel-btn-prev, .customer__carousel-btn-next{
+border: none;
+ background-color: var(--background-color);
+}
+
+
+@media(min-width: 640px){
+    .carousel__customer__review__inner{
+        display: flex;
+        gap: 30px;
+    }
+    }
+    
+    /*@media(min-width: 960px){
+        .carousel__customer__review__inner{
+            
+        }
+        }*/
+    
+       /* @media(min-width: 960px){
+            .carousel__customer__review__inner{
+                
+            }
+            }*/
