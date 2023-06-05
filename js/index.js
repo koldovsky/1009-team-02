@@ -1,4 +1,4 @@
 document.addEventListener("partialsLoaded", () => {
-  import('./header.js');
+  import('./burger-menu.js');
   import('./sale-countdown.js');
 });

@@ -18,6 +18,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 img {
   display: block;
   width: 100%;
@@ -28,6 +32,6 @@ img {
   margin: auto;
 }
 
-.lock-scroll {
+.block-scroll {
   overflow-y: hidden;
 }
