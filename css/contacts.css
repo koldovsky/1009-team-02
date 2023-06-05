@@ -79,7 +79,7 @@
 }
 .contacts__map {
   margin-top: 12px;
-  width: 302px;
+  width: 320px;
 }
 @media (min-width: 460px) {
   .contacts {
