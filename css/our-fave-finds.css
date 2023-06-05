@@ -96,6 +96,11 @@
     font-weight: bold;
 }
 
+.off__brands-carousel {
+    display:flex;
+    justify-content: center;
+}
+
 .off__carousel__track-container {
     width: 100%;
     overflow-x: hidden;
@@ -116,7 +121,7 @@
 
 .off__carousel__track-container__right-arrow {
     position: absolute;
-    right: 10px;
+    right: 2px;
     height: 30px;
     width: 30px;
     top: 35%;
@@ -145,5 +150,21 @@
 
     .off__description {
         margin-bottom: 20px;
+    }
+
+    .off__carousel__track-container{
+        width: 209px;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 1024px) {
+    .off__carousel__track-container{
+        width: 418px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .off__carousel__track-container{
+        width: 836px;
     }
 }

@@ -23,27 +23,40 @@
     const brandsLength = document.querySelectorAll('.off__carousel__slide').length;
     const carouselTrack = document.querySelector('.off__carousel__track');
     const elementWidth = 125 + 84;
-    const shownElements = Math.floor(document.querySelector('.off__carousel__track-container').offsetWidth / elementWidth);
-    let currentIndex = shownElements;
+    let currentIndex = 0;
+    let visibleBrands = 1;
 
     leftArrow.addEventListener('click', leftArrowClick);
     rightArrow.addEventListener('click', rightArrowClick);
+
+    setCardsSettings();
+    window.addEventListener("resize", setCardsSettings, true);
+
+    function setCardsSettings() {
+        if (window.innerWidth > 1024) visibleBrands = 4;
+        else if (window.innerWidth > 540) visibleBrands = 2;
+        else visibleBrands = 1;
+
+        //cardWidth = 100 / visibleBrands;
+        currentIndex = 0;
+        updateCarousel();
+    }
 
     function updateCarousel() {
         carouselTrack.style.transform = `translateX(-${currentIndex * elementWidth}px)`;
     }
 
     function leftArrowClick() {
-        if (currentIndex === 0) currentIndex = brandsLength - 1;
-        else currentIndex--;
-    
+        if (currentIndex === 0) currentIndex = brandsLength - visibleBrands;
+        else currentIndex = currentIndex - visibleBrands >= 0 ? currentIndex - visibleBrands : 0;
+
         updateCarousel();
     }
 
     function rightArrowClick() {
-        if (currentIndex === brandsLength - 1) currentIndex = 0;
-        else currentIndex++;
-    
+        if (currentIndex + visibleBrands >= brandsLength) currentIndex = 0;
+        else currentIndex += visibleBrands;
+
         updateCarousel();
     }
 })();
