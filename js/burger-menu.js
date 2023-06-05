@@ -19,4 +19,3 @@ navLinks.forEach((navLink) => {
   }
   );
 });
-

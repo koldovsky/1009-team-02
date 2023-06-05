@@ -41,7 +41,7 @@
     border-width: 2px;
     border-radius: 5px;
     border-style: solid;
-    font-size: 10.8px; 
+    font-size: 10.8px;
     cursor: pointer;
     word-wrap: break-word;
     font-family: var(--secondary-font-family);
@@ -88,6 +88,46 @@
     width: 100%;
     height: 100%;
     color: var(--light-color);
+}
+
+.scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+}
+
+.scroll-to-top {
+    color: var(--main-color);
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+    border-color: var(--main-color);
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.scroll-to-top:before {
+    content: '⇧';
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+    border: 1.5px solid var(--main-color);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: transform .5s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--transparent-light-color);
+}
+
+.scroll-to-top:hover:before {
+    transform: rotate(360deg);
 }
 
 @media (min-width: 767px) {
