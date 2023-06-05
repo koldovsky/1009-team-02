@@ -1,24 +1,38 @@
+.our-fave-finds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.off__flex-container {
+    padding: 24px;
+    max-width: 1300px;
+}
+
 .off__title {
     display: block;
     text-align: left;
     font-weight: bold;
     font-size: 30px;
     color: var(--main-color);
+    margin-bottom: 25px;
 }
 
 .off__description {
-    display: block;
     color: var(--main-color);
+    margin-bottom: 50px;
 }
 
+
 .off__finds-container__find__find-image {
-    height: 272px;
-    width: 272px;
+    height: 210px;
+    width: 210px;
 }
 
 .off__finds-container__find {
     display: inline-block;
-
+    padding: 0 15px;
+    margin: 0 10px;
 }
 
 .off__finds-container__find .out-of-stock {
@@ -29,7 +43,6 @@
 .off__finds-container__find__out-of-stock {
     background: #ffddd9;
     color: #cc3833;
-
 }
 
 .off__carousel__track span {
@@ -41,9 +54,14 @@
 }
 
 .off__finds-container__tabs {
-    border-bottom: 2px solid #c0bfbf;
+    border-bottom: 2px solid var(--off-accent-font-color);
     margin-bottom: 30px;
+}
 
+.off__finds-container__tabs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .off__finds-container__tabs>span {
@@ -66,6 +84,18 @@
     display: block;
 }
 
+.off__finds-container__find>* {
+    text-align: center;
+    margin-bottom: 7px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.off__find__price {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
 .off__carousel__track-container {
     width: 100%;
     overflow-x: hidden;
@@ -77,8 +107,8 @@
     position: absolute;
     left: 10px;
     top: 35%;
-    height:30px;
-    width:30px;
+    height: 30px;
+    width: 30px;
     transform: rotateY(180deg);
     cursor: pointer;
     z-index: 1;
@@ -87,9 +117,9 @@
 .off__carousel__track-container__right-arrow {
     position: absolute;
     right: 10px;
-    height:30px;
-    width:30px;
-    top:35%;
+    height: 30px;
+    width: 30px;
+    top: 35%;
     cursor: pointer;
     z-index: 1;
 }
@@ -98,10 +128,22 @@
     margin: 0 42px;
 }
 
-@media (min-width: 540px) {
+@media (max-width: 540px) {
     .off__finds-container__tabs-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .off__flex-container {
+        width: 100%;
+    }
+
+    .off__title {
+        margin-bottom: 12px;
+    }
+
+    .off__description {
+        margin-bottom: 20px;
     }
 }
