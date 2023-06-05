@@ -50,5 +50,8 @@
 }
 .furniture-collection {
   padding: 90px 24px 90px 24px;
+  font-size: 16px;
   justify-content: center;
+  max-width: 100%;
+  height: auto;
 }

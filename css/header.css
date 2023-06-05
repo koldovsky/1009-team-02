@@ -19,7 +19,6 @@
     width: auto;
 }
 
-
 .header__menu {
     display: none;
 }
@@ -36,7 +35,7 @@
     color: var(--accent-color);
 }
 
-.header__order-button {
+.header__button--order {
     height: 43px;
     width: 104px;
 }
@@ -107,10 +106,6 @@
     top: 75%;
 }
 
-.header__hamburger-menu.active {
-    bottom: 30px;
-}
-
 .header__hamburger-menu.active .bar-top {
     transform: translate(-50%, -50%) rotate(-315deg);
     top: 50%;
@@ -132,6 +127,7 @@
     background-color: var(--light-color);
     height: 100vh;
     width: 100%;
+    padding-top: 30px;
 }
 
 .header__off-screen-menu.active {
@@ -174,6 +170,10 @@
     .header__title {
         font-size: 71px;
         line-height: 78px;
+    }
+
+    .header__off-screen-menu {
+        padding-top: 40px;
     }
 }
 
