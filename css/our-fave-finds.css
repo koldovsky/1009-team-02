@@ -10,3 +10,98 @@
     display: block;
     color: var(--main-color);
 }
+
+.off__finds-container__find__find-image {
+    height: 272px;
+    width: 272px;
+}
+
+.off__finds-container__find {
+    display: inline-block;
+
+}
+
+.off__finds-container__find .out-of-stock {
+    object-fit: contain;
+    height: 91%;
+}
+
+.off__finds-container__find__out-of-stock {
+    background: #ffddd9;
+    color: #cc3833;
+
+}
+
+.off__carousel__track span {
+    display: inline-block;
+}
+
+.off__carousel__track span img {
+    height: 100px;
+}
+
+.off__finds-container__tabs {
+    border-bottom: 2px solid #c0bfbf;
+    margin-bottom: 30px;
+
+}
+
+.off__finds-container__tabs>span {
+    padding: 15px 20px;
+    display: inline-block;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.off__finds-container__tabs>span.active {
+    border-bottom: 3px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.off__finds-container__tab {
+    display: none;
+}
+
+.off__finds-container__tab.active {
+    display: block;
+}
+
+.off__carousel__track-container {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.off__carousel__track-container__left-arrow {
+    position: absolute;
+    left: 10px;
+    top: 35%;
+    height:30px;
+    width:30px;
+    transform: rotateY(180deg);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.off__carousel__track-container__right-arrow {
+    position: absolute;
+    right: 10px;
+    height:30px;
+    width:30px;
+    top:35%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.off__carousel__slide {
+    margin: 0 42px;
+}
+
+@media (min-width: 540px) {
+    .off__finds-container__tabs-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

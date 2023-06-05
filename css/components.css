@@ -36,6 +36,20 @@
     color: var(--light-color);
 }
 
+.button--tertiary {
+    border: var(--accent-color);
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 10.8px; 
+    cursor: pointer;
+    word-wrap: break-word;
+    font-family: var(--secondary-font-family);
+    padding: 13px 24px;
+    font-weight: 700;
+}
+
+
 .countdown {
     background-color: var(--sale-color);
     color: var(--light-color);
