@@ -9,8 +9,7 @@
                     We sell designer furniture, lamps & decor across the USA. We offer
                     the best collections by American and European designers.
                   </p>
-            </div>
-         
+            </div>        
         </div>
         <div class="footer__section footer__section-two">
           <nav class="footer__links">
@@ -58,7 +57,14 @@
         <div class="footer__section">
           <div class="footer__section-contacts">
             <p class="footer__section-text footer__section-text-promo ">Join our newsletter for $30 off</p>
-              <label for="user-email"></label>
+              <div id="modal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Thanks for subscribing!</h2>
+                <p> You have successfully subscribed to our newsletter.</p>
+              </div>
+            </div>
+            <form id="subscription-form">
               <input
                 type="email"
                 placeholder="Email*"
@@ -66,12 +72,12 @@
                 id="user-email"
                 required
               />
-              <button class="footer__button">SUBCRIBE</button>
+              <button type="submit" class="footer__button">SUBCRIBE</button>
+            </form>
           </div>
         </div>
-      </::after>
       <div class="decorative-line"></div>
-      <div class=".footer__horizontal-flow-selection">
+      <div class="footer__horizontal-flow-selection">
         <span class="footer__w-text-content footer__w-text-content-left">© Created by</span>
         <span class="clearfix"></span>
         <span class="footer__w-text-content footer__w-text-content-right">All rights Reserved</span>
