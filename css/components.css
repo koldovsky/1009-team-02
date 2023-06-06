@@ -48,3 +48,9 @@
     padding: 13px 24px;
     font-weight: 700;
 }
+
+.button--tertiary.inactive {
+    opacity: 0.9;
+    color: var(--off-accent-font-color);   
+}
+

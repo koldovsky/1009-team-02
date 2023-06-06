@@ -1,56 +1,55 @@
 <footer class="footer">
-      <div class="footer__wrapper-container">
+      <nav class="footer__container container">
         <div class="footer__section">
             <div class="footer__section-about-us">
-                <a href="#">
-                    <img src="./img/interiorX-logo.png" class="footer_logo" alt="interiorX "
+                <a href="index.html" class="footer__logo-link">
+                    <img src="./img/interiorX-logo-w.png" class="footer__logo" alt="interiorX "
                   /></a>
                   <p class="footer__section-text">
                     We sell designer furniture, lamps & decor across the USA. We offer
                     the best collections by American and European designers.
                   </p>
-            </div>
-         
+            </div>        
         </div>
-        <div class="footer__section">
+        <div class="footer__section footer__section-two">
           <nav class="footer__links">
             <ul class="footer__links">
-              <li><a href="#" class="footer__menu-link">Promotions</a></li>
-              <li><a href="#" class="footer__menu-link">2020 Collection</a></li>
-              <li><a href="#" class="footer__menu-link">Blog</a></li>
+              <li><a href="#furniture-collection" class="footer__navigation-link">Promotions</a></li>
+              <li><a href="#our-fave-finds" class="footer__navigation-link">2020 Collection</a></li>
+              <li><a href="#blog" class="footer__navigation-link">Blog</a></li>
             </ul>
           </nav>
         </div>
-        <div class="footer__section">
+        <div class="footer__section footer__section-three">
           <nav class="footer__links">
             <ul class="footer__links">
-              <li><a href="#" class="footer__menu-link">Best-selling</a></li>
-              <li><a href="#" class="footer__menu-link">Testimonials</a></li>
-              <li><a href="#" class="footer__menu-link">Contact us</a></li>
+              <li><a href="#bestsellers" class="footer__navigation-link">Best-selling</a></li>
+              <li><a href="#customer-reviews" class="footer__navigation-link">Testimonials</a></li>
+              <li><a href="#contacts" class="footer__navigation-link">Contact us</a></li>
             </ul>
           </nav>
         </div>
         <div class="footer__section">
           <div class="footer__section-follow-us">
             <p class="footer__section-text footer__section-follow-us-text">Follow Us</p>
-            <div class="footer_social-icons-container">
-              <a href="#">
+            <div class="footer__social-icons-container">
+              <a href="https://uk-ua.facebook.com/">
                 <img
-                  class="footer_logo-icon"
+                  class="footer__logo-icon"
                   src="./img/facebook-logo.png"
                   alt="facebook-logo"
               /></a>
-              <a href="#">
+              <a href="https://twitter.com">
                 <img
-                  class="footer_logo-icon"
+                  class="footer__logo-icon"
                   src="./img/twitter-logo.png"
                   alt="twitter-logo"
               /></a>
-              <a href="#"
+              <a href="https://ua.linkedin.com"
                 ><img
-                  class="footer_logo-icon"
+                  class="footer__logo-icon"
                   src="./img/linkedin-logo.png"
-                  alt="twitter-logo"
+                  alt="linkedin-logo"
               /></a>
             </div>
           </div>
@@ -58,23 +57,30 @@
         <div class="footer__section">
           <div class="footer__section-contacts">
             <p class="footer__section-text footer__section-text-promo ">Join our newsletter for $30 off</p>
-              <label for="user-email"></label>
+              <div id="modal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Thanks for subscribing!</h2>
+                <p> You have successfully subscribed to our newsletter.</p>
+              </div>
+            </div>
+            <form id="subscription-form">
               <input
                 type="email"
                 placeholder="Email*"
-                class="footer_form-field-lable"
+                class="footer__form-field-lable"
                 id="user-email"
                 required
               />
-              <button class="footer__button button--primary">SUBCRIBE</button>
-            
+              <button type="submit" class="footer__button">SUBCRIBE</button>
+            </form>
           </div>
         </div>
-      </div>
-      </::after>
       <div class="decorative-line"></div>
-      <div class=".footer__horizontal-flow-selection">
+      <div class="footer__horizontal-flow-selection">
         <span class="footer__w-text-content footer__w-text-content-left">© Created by</span>
+        <span class="clearfix"></span>
         <span class="footer__w-text-content footer__w-text-content-right">All rights Reserved</span>
       </div>
+    </div>
     </footer>
